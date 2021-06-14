@@ -1,0 +1,26 @@
+{
+    "name": "fossmentorofficial/fm-cookie-popup-wp",
+    "description": "GDPR Consent Cookie Plugin",
+    "license": "GPL-2.0+",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Wasif Younas",
+            "email": "contact@fossmentor.com"
+        }
+    ],
+    "support": {
+        "src": "https://github.com/fossmentorofficial/fm-cookie-popup-wp",
+        "issues": "https://github.com/fossmentorofficial/fm-cookie-popup-wp/issues"
+    },
+    "autoload": {
+    "classmap": [],
+    "files": [
+      "src/class-ci-activation.php",
+      "src/admin/class-ci-settings.php",
+      "src/admin/class-ci-admin.php",
+      "src/public/class-ci-public.php",
+      "src/public/class-ci-iframe.php"
+    ]
+  }
+}
